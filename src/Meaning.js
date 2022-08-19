@@ -14,7 +14,7 @@ const Meaning = (props) => {
               {definition.definition}
               <br />
               <em>{definition.example}</em>
-              <br></br>
+              <br />
               <Synonyms synonyms={definition.synonyms} />
             </p>
           </div>
