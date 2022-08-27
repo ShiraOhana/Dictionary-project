@@ -1,5 +1,5 @@
 import React from "react";
-import "./Photos.css";
+import "./css/Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -10,7 +10,7 @@ export default function Photos(props) {
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (
-              <div className="col-4" key={index}>
+              <div className="col-md-4" key={index}>
                 <a href={photo.src.original} target="_blank">
                   <img src={photo.src.landscape} className="img-fluid" />{" "}
                 </a>

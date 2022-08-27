@@ -1,5 +1,5 @@
-import "./App.css";
-import logo from "./Dictionary.png";
+import "./css/App.css";
+import logo from "./assets/Dictionary.png";
 import Dictionary from "./Dictionary";
 
 function App() {
